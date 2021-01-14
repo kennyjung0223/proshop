@@ -22,7 +22,7 @@ const productSchema = mongoose.Schema(
       type: String,
       required: true,
     },
-    emaimageil: {
+    image: {
       type: String,
       required: true,
     },
@@ -35,7 +35,7 @@ const productSchema = mongoose.Schema(
       required: true,
     },
     description: {
-      type: Boolean,
+      type: String,
       required: true,
     },
     reviews: [reviewSchema],
